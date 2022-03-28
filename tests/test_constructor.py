@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import unittest
 import trafaret as t
-from collections import Mapping as AbcMapping
+from collections.abc import Mapping as AbcMapping
 from trafaret import extract_error, ignore, DataError
 from trafaret.extras import KeysSubset
 from trafaret.constructor import construct, C

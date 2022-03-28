@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import unittest
 import trafaret as t
-from collections import Mapping as AbcMapping
+from collections.abc import Mapping as AbcMapping
 from trafaret import catch_error, extract_error, DataError, guard
 
 

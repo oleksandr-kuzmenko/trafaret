@@ -1,5 +1,5 @@
 import inspect
-from collections import Mapping as AbcMapping
+from collections.abc import Mapping as AbcMapping
 from .dataerror import DataError
 from .lib import (
     _empty,
